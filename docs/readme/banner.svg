@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-labelledby="t d">
+  <title id="t">fiat_navigator banner</title>
+  <desc id="d">A stack of gold coins next to a crossed-out dollar bill, with the project name fiat_navigator.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1c1a12"/>
+      <stop offset="1" stop-color="#33290f"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffe08a"/>
+      <stop offset="1" stop-color="#c8921a"/>
+    </linearGradient>
+  </defs>
+  <style>
+    text { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "DejaVu Sans Mono", monospace; }
+    .tag { font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; }
+    .c0{animation:bob 9s ease-in-out infinite} .c1{animation:bob 9s ease-in-out -1.5s infinite} .c2{animation:bob 9s ease-in-out -3s infinite} .c3{animation:bob 9s ease-in-out -4.5s infinite}
+    .bill{animation:fade 10s ease-in-out infinite}
+    @keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}
+    @keyframes fade{0%,100%{opacity:.22}50%{opacity:.45}}
+    @media (prefers-reduced-motion: reduce) { .anim, .anim * { animation: none !important; } }
+  </style>
+  <rect width="1200" height="300" rx="24" fill="url(#bg)"/>
+  <rect x="1.5" y="1.5" width="1197" height="297" rx="23" fill="none" stroke="#f5c542" stroke-opacity="0.35" stroke-width="3"/>
+  <text x="64" y="86" font-size="14" letter-spacing="3" fill="#f5c542" opacity="0.9">HISTORICAL RUBY GEM  /  2012</text>
+  <text x="64" y="170" font-size="68" font-weight="700" fill="#fff3c9">fiat_navigator</text>
+  <text class="tag" x="66" y="222" font-size="23" fill="#e6d9a8">Dollars in, ounces of gold out. No debt units were harmed.</text>
+  <g class="anim c0"><rect x="860" y="238" width="180" height="16" fill="#9a6d0f"/><ellipse cx="950" cy="254" rx="90" ry="26" fill="#9a6d0f"/><ellipse cx="950" cy="238" rx="90" ry="26" fill="url(#gold)" stroke="#fff1b8" stroke-opacity="0.6"/><ellipse cx="950" cy="238" rx="68" ry="18" fill="none" stroke="#9a6d0f" stroke-opacity="0.55"/></g><g class="anim c1"><rect x="860" y="208" width="180" height="16" fill="#9a6d0f"/><ellipse cx="950" cy="224" rx="90" ry="26" fill="#9a6d0f"/><ellipse cx="950" cy="208" rx="90" ry="26" fill="url(#gold)" stroke="#fff1b8" stroke-opacity="0.6"/><ellipse cx="950" cy="208" rx="68" ry="18" fill="none" stroke="#9a6d0f" stroke-opacity="0.55"/></g><g class="anim c2"><rect x="860" y="178" width="180" height="16" fill="#9a6d0f"/><ellipse cx="950" cy="194" rx="90" ry="26" fill="#9a6d0f"/><ellipse cx="950" cy="178" rx="90" ry="26" fill="url(#gold)" stroke="#fff1b8" stroke-opacity="0.6"/><ellipse cx="950" cy="178" rx="68" ry="18" fill="none" stroke="#9a6d0f" stroke-opacity="0.55"/></g><g class="anim c3"><rect x="860" y="148" width="180" height="16" fill="#9a6d0f"/><ellipse cx="950" cy="164" rx="90" ry="26" fill="#9a6d0f"/><ellipse cx="950" cy="148" rx="90" ry="26" fill="url(#gold)" stroke="#fff1b8" stroke-opacity="0.6"/><ellipse cx="950" cy="148" rx="68" ry="18" fill="none" stroke="#9a6d0f" stroke-opacity="0.55"/></g><text x="950" y="132" text-anchor="middle" font-size="26" font-weight="700" fill="#7a5408">Au</text><g class="anim bill" opacity="0.35"><rect x="1070" y="70" width="90" height="46" rx="5" fill="#2f5d3a" stroke="#7fbf8e" stroke-width="2" transform="rotate(8 1115 93)"/><text x="1115" y="104" text-anchor="middle" font-size="30" fill="#bfe7c9" transform="rotate(8 1115 93)">$</text><line x1="1058" y1="125" x2="1172" y2="62" stroke="#ff7b72" stroke-width="5" stroke-linecap="round"/></g>
+</svg>
